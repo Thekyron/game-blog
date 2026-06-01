@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Галерея игр</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+<header class="header-flex">
+
+<div class="logo">
+
+🎮 GameBlog
+
+</div>
+
+<nav>
+
+<ul>
+
+<li><a href="index.html">Главная</a></li>
+<li><a href="gallery.html">Галерея</a></li>
+<li><a href="contacts.html">Контакты</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<main class="gallery-container">
+
+<div class="stats">
+
+<p>Изображений: <span id="image-counter">0</span></p>
+<p>Лайков: <span id="total-likes">0</span></p>
+
+</div>
+
+<div class="filters">
+
+<button class="filter-btn" data-filter="all">Все</button>
+
+<button class="filter-btn" data-filter="action">Экшен</button>
+
+<button class="filter-btn" data-filter="rpg">RPG</button>
+
+<button class="filter-btn" data-filter="racing">Гонки</button>
+
+</div>
+
+
+<div class="gallery-grid">
+
+<article class="image-card photo" data-category="action">
+
+<img src="images/img1.jpg"
+alt="Игровой персонаж">
+
+<h3>Экшен игра</h3>
+
+<button class="like-btn">
+❤️ <span class="likes">0</span>
+</button>
+
+</article>
+
+
+<article class="image-card photo" data-category="rpg">
+
+<img src="images/img2.jpeg"
+alt="Фэнтези мир">
+
+<h3>RPG мир</h3>
+
+<button class="like-btn">
+❤️ <span class="likes">0</span>
+</button>
+
+</article>
+
+
+<article class="image-card photo" data-category="racing">
+
+<img src="images/img3.webp"
+alt="Гоночный автомобиль">
+
+<h3>Гоночная игра</h3>
+
+<button class="like-btn">
+❤️ <span class="likes">0</span>
+</button>
+
+</article>
+
+
+<article class="image-card photo" data-category="action">
+
+<img src="images/img4.webp"
+alt="Сражение">
+
+<h3>Битва</h3>
+
+<button class="like-btn">
+❤️ <span class="likes">0</span>
+</button>
+
+</article>
+
+
+<article class="image-card photo" data-category="rpg">
+
+<img src="images/img5.webp"
+alt="Замок">
+
+<h3>Средневековый мир</h3>
+
+<button class="like-btn">
+❤️ <span class="likes">0</span>
+</button>
+
+</article>
+
+
+<article class="image-card photo" data-category="racing">
+
+<img src="images/img6.jpg"
+alt="Спортивный автомобиль">
+
+<h3>Скорость</h3>
+
+<button class="like-btn">
+❤️ <span class="likes">0</span>
+</button>
+
+</article>
+
+</div>
+
+</main>
+
+<footer>
+
+<p>© Айрапетян Владимир, 2026</p>
+
+</footer>
+
+</body>
+</html>
